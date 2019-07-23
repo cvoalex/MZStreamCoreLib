@@ -1,0 +1,6 @@
+framework module MZStreamCore {
+  umbrella header "MZStreamCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
