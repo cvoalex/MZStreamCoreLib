@@ -48,8 +48,8 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
   # https://stackoverflow.com/questions/19481125/add-static-library-to-podspec
   s.subspec 'FDKAAC' do |fdkaac|
-    fdkaac.vendored_libraries = 'MZStreamCore/Frameworks/libfdk-aac.a'
+    fdkaac.vendored_libraries = 'libfdk-aac.a'
     fdkaac.libraries = 'fdk-aac'
-    fdkaac.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/Frameworks/libfdk-aac.a" }
+    fdkaac.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/libfdk-aac.a" }
   end
 end
