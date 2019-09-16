@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface HttpUploader : NSObject
 
 -(NSURLSessionDataTask*)uploadFileWithData:(NSData*)data url:(NSURL*)url callback:(void (^)(NSData *data, NSURLResponse *response, NSError *error))callback;
--(NSURLSessionDataTask*)uploadStreamedFileWithUrl:(NSURL*)url callback:(void (^)(NSData *data, NSURLResponse *response, NSError *error))callback;
+-(size_t)uploadStreamedFileWithUrl:(NSURL*)url callback:(void (^)(NSData *data, NSURLResponse *response, NSError *error))callback;
 -(void)putData:(uint8_t*)data size:(size_t)size task:(size_t)taskID;
 -(void)closeStreamWithID:(size_t)taskID;
 

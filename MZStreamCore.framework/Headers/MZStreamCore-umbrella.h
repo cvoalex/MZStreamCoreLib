@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "OpenALPlayer.h"
 #import "AudioQueuePlayer.h"
 #import "LiveStreamer.h"
 #import "HttpUploader.h"
@@ -19,6 +20,8 @@
 #import "H264Encoder.h"
 #import "HEVCEncoder.h"
 #import "HLSv7HttpStreamer.h"
+#import "HLSv7Demuxer.h"
+#import "FDKAACDecoder.h"
 
 FOUNDATION_EXPORT double MZStreamCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char MZStreamCoreVersionString[];
