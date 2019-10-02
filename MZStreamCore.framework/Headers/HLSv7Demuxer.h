@@ -17,6 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HLSv7Demuxer : NSObject
 -(id) initWithSourceAddress:(NSString*)address;
+-(void) start;
+-(void) stop;
+@property (nonatomic) bool paused;
 @property (nonatomic, weak) id<HLSv7DemuxerDelegate> delegate;
 @end
 
