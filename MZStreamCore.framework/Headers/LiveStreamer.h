@@ -21,5 +21,6 @@ FOUNDATION_EXPORT const unsigned char LiveStreamerVersionString[];
 #import "H264Encoder.h"
 #import "HEVCEncoder.h"
 #import "HLSv7HttpStreamer.h"
+#import "HLSv9InterleavedStreamer.h"
 #import "AudioQueuePlayer.h"
 
