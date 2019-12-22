@@ -21,6 +21,7 @@
 -(id) initWithWidth:(int)width height:(int)height bitrate:(int)bitrate framerate:(int)framerate;
 -(void) putCVPixelBuffer:(CMSampleBufferRef)pixelBuffer withTimestamp:(CMTime)timestamp;
 @property (nonatomic, weak) id<GenericEncoderDelegate> delegate;
+-(bool) setBitrate:(int)bps;
 @end
 
 #endif /* H264Encoder_h */

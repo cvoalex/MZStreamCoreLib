@@ -19,6 +19,8 @@
 -(void) close;
 -(CVPixelBufferPoolRef) getPixelBufferPool;
 @property (nonatomic, weak) id<GenericEncoderDelegate> delegate;
+-(void) setBitrate:(int)bps;
+
 @end
 
 #endif /* H264Encoder_h */

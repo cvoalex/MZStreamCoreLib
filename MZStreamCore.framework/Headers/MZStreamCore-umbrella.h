@@ -12,6 +12,8 @@
 
 #import "OpenALPlayer.h"
 #import "AudioQueuePlayer.h"
+#import "MP4SegmentDescriptor.h"
+#import "SegmentDataConsolidator.h"
 #import "LiveStreamer.h"
 #import "HttpUploader.h"
 #import "GenericEncoder.h"

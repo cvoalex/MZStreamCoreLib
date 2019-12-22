@@ -19,6 +19,7 @@
 -(void) putCVPixelBuffer:(CMSampleBufferRef)pixelBuffer withTimestamp:(CMTime)timestamp;
 -(void) close;
 -(CVPixelBufferPoolRef) getPixelBufferPool;
+-(bool) setBitrate:(int)bps;
 @property (nonatomic, weak) id<GenericEncoderDelegate> delegate;
 @end
 
