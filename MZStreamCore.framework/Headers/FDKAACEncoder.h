@@ -20,7 +20,7 @@
 @interface FDKAACEncoder : NSObject
 -(id) initWithSampleRate:(int)sampleRate channels:(int)channels bitrate:(int)bitrate;
 -(void) putCMSampleBuffer:(CMSampleBufferRef) sampleBuffer;
--(void) putData:(uint8_t*)data size:(size_t)size pts:(CMTime)timestamp;
+-(void) putData:(const uint8_t*)data size:(size_t)size pts:(CMTime)timestamp;
 @property (nonatomic, weak) id<FDKAACEncoderDelegate> delegate;
 @end
 

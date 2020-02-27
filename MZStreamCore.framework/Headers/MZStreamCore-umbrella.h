@@ -26,6 +26,8 @@
 #import "HLSv7Demuxer.h"
 #import "FDKAACDecoder.h"
 #import "FrameQueue.h"
+#import "InfiniteAudio.h"
+#import "AudioMixerObjc.h"
 
 FOUNDATION_EXPORT double MZStreamCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char MZStreamCoreVersionString[];

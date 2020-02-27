@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MZStreamCore'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of MZStreamCore.'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   #   'MZStreamCore' => ['MZStreamCore/Assets/*.png']
   # }
 
-  s.public_header_files = 'MZStreamCore/Classes/OpenALPlayer/OpenALPlayer.h', 'MZStreamCore/Classes/AudioQueuePlayer/AudioQueuePlayer.h','MZStreamCore/Classes/MP4SegmentDescriptor.h','MZStreamCore/Classes/SegmentDataConsolidator.h', 'MZStreamCore/Classes/LiveStreamer.h', 'MZStreamCore/Classes/HttpUploader.h','MZStreamCore/Classes/GenericEncoder.h', 'MZStreamCore/Classes/AAC/AACEncoder.h','MZStreamCore/Classes/AAC/FDKAACEncoder.h','MZStreamCore/Classes/AVC/H264Encoder.h','MZStreamCore/Classes/HEVC/HEVCEncoder.h','MZStreamCore/Classes/HLSv7HttpStreamer.h','MZStreamCore/Classes/HLSv9InterleavedStreamer.h','MZStreamCore/Classes/HLSv7Demuxer.h', 'MZStreamCore/Classes/AAC/FDKAACDecoder.h', 'MZStreamCore/Classes/FrameQueue.h'
+  s.public_header_files = 'MZStreamCore/Classes/OpenALPlayer/OpenALPlayer.h', 'MZStreamCore/Classes/AudioQueuePlayer/AudioQueuePlayer.h','MZStreamCore/Classes/MP4SegmentDescriptor.h','MZStreamCore/Classes/SegmentDataConsolidator.h', 'MZStreamCore/Classes/LiveStreamer.h', 'MZStreamCore/Classes/HttpUploader.h','MZStreamCore/Classes/GenericEncoder.h', 'MZStreamCore/Classes/AAC/AACEncoder.h','MZStreamCore/Classes/AAC/FDKAACEncoder.h','MZStreamCore/Classes/AVC/H264Encoder.h','MZStreamCore/Classes/HEVC/HEVCEncoder.h','MZStreamCore/Classes/HLSv7HttpStreamer.h','MZStreamCore/Classes/HLSv9InterleavedStreamer.h','MZStreamCore/Classes/HLSv7Demuxer.h', 'MZStreamCore/Classes/AAC/FDKAACDecoder.h', 'MZStreamCore/Classes/FrameQueue.h', 'MZStreamCore/Classes/InfiniteAudio.h', 'MZStreamCore/Classes/AudioMixer/AudioMixerObjc.h'
   s.frameworks = 'CoreMedia', 'CoreVideo', 'CoreAudio', 'AudioToolbox', 'VideoToolbox', 'AVFoundation', 'OpenAL'
   s.library = 'c++'
   s.xcconfig = {
